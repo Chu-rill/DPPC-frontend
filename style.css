@@ -7,6 +7,7 @@ body {
 }
 .container {
   width: 400px;
+  margin-top: 50px;
 }
 h1 {
   font-weight: 100;
@@ -23,7 +24,7 @@ p {
   flex-direction: column;
 }
 span {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   margin-top: 15px;
 }
 input {
@@ -44,6 +45,9 @@ input {
   border: none;
   border-radius: 7px;
   margin-bottom: 30px;
+}
+.cont:hover {
+  background-color: color-mix(in srgb, rgb(52, 52, 187), white 10%);
 }
 a {
   color: blue;
@@ -69,4 +73,19 @@ a {
 }
 .auth img {
   margin-right: 10px;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+}
+header p {
+  color: black;
+  padding-right: 50px;
+  font-size: 1.5rem;
 }

@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: color-mix(in srgb, white 80%, gray);
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  top: 0;
+}
+header p {
+  color: black;
+  padding-right: 50px;
+  font-size: 1.5rem;
+}
+.container {
+  width: 400px;
+  margin-top: 50px;
+}
+button {
+  width: 100%;
+  margin-top: 30px;
+  background-color: rgb(52, 52, 187);
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button img {
+  margin-right: 10px;
+}
