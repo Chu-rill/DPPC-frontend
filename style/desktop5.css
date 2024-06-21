@@ -77,6 +77,12 @@ h3 {
   margin-left: 1000px;
   cursor: pointer;
 }
+.container button a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 main {
   width: 1200px;
   height: 380px;
@@ -106,9 +112,9 @@ main {
   margin-left: 10px;
 }
 .add_policy {
-  margin-left: 300px;
-  margin-top: 40px;
-  display: none;
+  margin-left: 500px;
+  margin-top: 80px;
+  /* display: none; */
 }
 .add_policy .title {
   width: 384px;
@@ -212,7 +218,7 @@ input::placeholder {
   padding: 20px;
   margin-top: 40px;
 }
-.add_policy2 button {
+.add_policy button {
   width: 384px;
   height: 45px;
   top: 317px;
@@ -226,6 +232,9 @@ input::placeholder {
   color: white;
   margin-top: 60px;
   cursor: pointer;
+}
+.add_policy button a {
+  color: white;
 }
 .cover {
   position: fixed;

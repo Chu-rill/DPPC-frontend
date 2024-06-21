@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7f8;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  display: flex;
+  background: #ffffff;
+  align-items: center;
+  height: 80px;
+  /* position: fixed; */
+  /* top: 0; */
+  /* padding-top: 30px; */
+  justify-content: space-around;
+  width: 100vw;
+}
+.link {
+  display: flex;
+  width: 766px;
+  justify-content: space-between;
+}
+.icon {
+  width: 42px;
+  height: 42px;
+  color: white;
+  background-color: rgb(40, 40, 104);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.link p {
+  height: 21px;
+  cursor: pointer;
+}
+h3 {
+  height: 30px;
+  size: 23px;
+  font-weight: 500;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  height: 687px;
+  padding: 24px 0px 24px 0px;
+  gap: 20px;
+  margin-left: 100px;
+  /* border-radius: 8px; */
+  /* border: 1px solid #cfd1d2; */
+  /* opacity: 0px; */
+  /* background-color: #ffffff; */
+}
+.container h1 {
+  width: 568px;
+  height: 36px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.46px;
+  text-align: left;
+  color: black;
+  margin-bottom: 15px;
+}
+main {
+  width: 100%;
+  height: 430px;
+  padding: 24px 0px 24px 0px;
+  gap: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd1d2;
+  /* opacity: 0px; */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top {
+  width: 1200px;
+  height: 30px;
+  padding: 0px 32px 0px 32px;
+  gap: 24px;
+  display: flex;
+
+  /* opacity: 0px; */
+}
+.top p {
+  width: 266px;
+  height: 30px;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 29.95px;
+  text-align: left;
+  color: #10181e;
+}
+.body {
+  width: 1200px;
+  height: 589px;
+  gap: 16px;
+  /* opacity: 0px; */
+}
+.one {
+  width: 1200px;
+  height: 37px;
+  padding: 8px 32px 8px 32px;
+  gap: 24px;
+  display: flex;
+  margin-bottom: 10px;
+  /* opacity: 0px; */
+  border-bottom: 1px solid #cfd1d2;
+}
+.one p {
+  width: 266px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.83px;
+  text-align: left;
+  color: #606569;
+}
